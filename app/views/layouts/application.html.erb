@@ -9,19 +9,46 @@
 <body>
 
 	<div id="header-container">
-		<div id="header" style="width:980px;margin:0 auto 0 auto;">
-			<img src="assets/logo.png" alt="Visit Winona - Historic Island City" />
-      <div id="nav">Nav</div>
+		<div id="header">
+			<img src="assets/logo.png" alt="Visit Winona - Historic Island City" style="display:block;float:left;" />
+
+			<ul id="utility-nav" style="">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Site map</a></li>
+			</ul>
+      <img src="assets/tagline.png" alt="spectacular BEAUTY, remarkable ARTS AND CULTURE, outdoor ADVENTURE"
+      style="float:right;margin-top:-35px;"/>
+
+      <div id="nav">
+        <ul>
+         <li><a href="#">Sightseeing<br /><span class="nav-sub">Spectacular Views</span></a></li>
+         <li><a href="#">Signature Festivals<br /><span class="nav-sub">Beethoven to Bluegrass</span></a></li>
+         <li><a href="#">Outdoor Recreation<br /><span class="nav-sub">Paddle, Climb, Hike or Relax</span></a></li>
+         <li><a href="#">Arts And Heritage<br /><span class="nav-sub">Cultural Treasures</span></a></li>
+         <li><a href="#">Food And Drink<br /><span class="nav-sub">Tastes of Winona</span></a></li>
+         <li><a href="#">Hotels And B&BS<br /><span class="nav-sub">Sweet Dreams</span></a></li>
+        </ul>
+      </div>
 		</div>
     
 	</div>
 
+ 
+
 	<div style="height: 100%; margin: 0px auto -84px auto; color:#000000; overflow:auto;">
               <div style="height:200px;"></div>
 
-              <img src="http://placehold.it/1280x500" id="main-pict" style=""/>
+              
+              
+
+
+              <%= image_tag 'winter-main.jpg', id: "main-pict" %>
+              <!-- img src="http://placehold.it/1280x500" id="main-pict" style=""/ -->
             <div style="width:980px;margin:0 auto 0 auto;">
               <p><%= yield %></p>
+              
+
+             
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -56,6 +83,63 @@
 	
 
 	<div id="footer-container">
+    <div id="footer">
+      <a href="#" id="explore-mn"></a>
+      <a href="#" id="local-maps"></a>
+      <a href="#" id="reconnect"></a>
+      <div id="mid-links">
+        
+        <div id="footer-col-1" class="footer-col">
+          <h4><a href="#">Winona Now</a></h4>
+          <ul>
+            <li><a href="#">News coverage</a></li>
+            <li><a href="#">Insider blogs</a></li>
+            <li><a href="#">Event Calendar</a></li>
+          </ul>
+        </div>
+        <div class="footer-divider"></div>
+        <div id="footer-col-2" class="footer-col">
+          <h4><a href="#">Connect with us</a></h4>
+          <ul>
+            <li><a href="#">Ask an expert</a></li>
+            <li><a href="#">Social media</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Get our e-newsletter</a></li>
+          </ul>
+        </div>
+        <div class="footer-divider"></div>
+        <div id="footer-col-3" class="footer-col">
+          <h4><a href="#">Plan your visit</a></h4>
+          <ul>
+            <li><a href="#">Local maps</a></li>
+            <li><a href="#">Around the area</a></li>
+            <li><a href="#">Community directory</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Itenerary ideas</a></li>
+          </ul>
+        </div>
+       <div class="footer-divider"></div>
+        <div id="footer-col-4" class="footer-col">
+        <h4><a href="#">Meet in Winona</a></h4>
+          <ul>
+            <li><a href="#">Meeting guide</a></li>
+            <li><a href="#">Group tour planner</a></li>
+            <li><a href="#">Meeting facilities</a></li>
+          </ul></div>
+      </div>  
+
+      <div id="social">
+        <a href="#" id="newsletter">Sign up for our e-newsletter</a>
+        <ul>
+          <li><a href="#" id="facebook"></a></li>
+          <li><a href="#" id="pinterest"></a></li>
+          <li><a href="#" id="twitter"></a></li>
+          <li><a href="#" id="youtube"></a></li>
+          <li><a href="#" id="rss"></a></li>
+
+        </ul>
+      </div>
+    </div>
 
 	</div>
 
