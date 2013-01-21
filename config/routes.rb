@@ -1,5 +1,11 @@
 Visitwinona::Application.routes.draw do
-  get "pages/index"
+  #get "pages/index"
+
+  match '/category' => 'pages#category'
+
+  resources :pages
+
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
