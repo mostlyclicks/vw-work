@@ -7,13 +7,13 @@ body {margin:0;padding:0;font-family:arial, sans-serif;}
 									-webkit-box-shadow: 0 8px 19px -11px #000;
 	   							-moz-box-shadow: 		0 8px 19px -11px #000;
 	        				box-shadow: 				0 8px 19px -11px #000;}
-#header-container #nav {}
+#header-container #nav {margin-top:3px;}
 #header-container #header {width:980px;margin:0 auto 0 auto;}
 
 #header-container #header ul#utility-nav {float:right;margin:0;padding:0;text-align:right;margin-top:-6px;font-family:arial, sans-serif;font-size:11px;}
 #header-container #header ul#utility-nav li a {color:#21617e;text-decoration:none;}
 #header-container #header ul#utility-nav li a:hover {text-decoration:underline;}
-#header-container #header ul#utility-nav li {display:inline-block;padding:0;margin-left:-4px;height:50px;padding:7px 0px 24px 9px;}
+#header-container #header ul#utility-nav li {display:inline-block;padding:0;margin-left:-4px;height:55px;padding:7px 0px 24px 9px;}
 #header-container #header ul#utility-nav li:first-child a {display:block;height:50px;}
 																													
 #header-container #header ul#utility-nav li:last-child a {display:block;padding:7px 7px 24px 7px;margin:0;

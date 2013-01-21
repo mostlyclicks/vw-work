@@ -5,6 +5,22 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
+  <script>
+  $(document).ready(function(){
+    var curtainopen = false;
+   $("div#nav ul li").hover(function(){
+    
+    $("div#curtain").slideToggle("slow");
+   });
+
+   
+  });
+
+
+  </script>
+
+
 </head>
 <body>
 
@@ -21,17 +37,19 @@
 
       <div id="nav">
         <ul>
-         <li><a href="#">Sightseeing<br /><span class="nav-sub">Spectacular Views</span></a></li>
-         <li><a href="#">Signature Festivals<br /><span class="nav-sub">Beethoven to Bluegrass</span></a></li>
-         <li><a href="#">Outdoor Recreation<br /><span class="nav-sub">Paddle, Climb, Hike or Relax</span></a></li>
-         <li><a href="#">Arts And Heritage<br /><span class="nav-sub">Cultural Treasures</span></a></li>
-         <li><a href="#">Food And Drink<br /><span class="nav-sub">Tastes of Winona</span></a></li>
-         <li><a href="#">Hotels And B&BS<br /><span class="nav-sub">Sweet Dreams</span></a></li>
+         <li class="border-red"><a href="#">Sightseeing<br /><span class="nav-sub">Spectacular Views</span></a></li>
+         <li class="border-red"><a href="#">Signature Festivals<br /><span class="nav-sub">Beethoven to Bluegrass</span></a></li>
+         <li class="border-red"><a href="#">Outdoor Recreation<br /><span class="nav-sub">Paddle, Climb, Hike or Relax</span></a></li>
+         <li class="border-red"><a href="#">Arts And Heritage<br /><span class="nav-sub">Cultural Treasures</span></a></li>
+         <li class="border-red"><a href="#">Food And Drink<br /><span class="nav-sub">Tastes of Winona</span></a></li>
+         <li class="border-red"><a href="#">Hotels And B&amp;BS<br /><span class="nav-sub">Sweet Dreams</span></a></li>
         </ul>
       </div>
 		</div>
     
 	</div>
+
+  <div id="curtain" style="width:100%;height:200px;background-color:blue;margin-top:200px;position:absolute;z-index:99;display:none;"></div>
 
  
 
