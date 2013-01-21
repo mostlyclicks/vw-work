@@ -40,8 +40,22 @@ body {margin:0;padding:0;font-family:arial, sans-serif;}
 .content {width:980px;min-height:500px;margin:-20px auto 0 auto;}
 #banner {width:1040px;min-height:100px;position:relative;z-index:9;float:left;}
 #banner-top {width:1040px;height:30px;margin-top:20px;position:absolute;background:url('banner-bg.png') 0 0 no-repeat;}
-#banner-mid {width:1040px;margin-top:50px;background:url('banner-bg-long.png') 0 -50px repeat-y;}
-#banner-btm {width:1040px;height:30px;position:absolute;background:url('banner-bg.png') 0 -133px no-repeat;}
+#banner-mid {width:1040px;margin-top:50px;margin-left:-1px;background:url('banner-bg-long.png') 0 -50px repeat-y;border:1px solid transparent;padding-top:0;}
+#banner-mid #banner-inner {margin:0 41px 0px 23px;font-size:12px;margin-top: -15px}
+#banner-mid #banner-inner a {color:#b31719;}
+
+#banner-mid #banner-inner #banner-inner-left	{width:675px;padding-right:15px;border-right:1px solid #f1e3c6;}
+#banner-mid #banner-inner #banner-inner-left h3 {color:#014c72;font-weight:100;text-transform: uppercase;}
+
+/*#banner-mid #banner-inner #banner-inner-right {}*/
+#banner-btm {width:1040px;height:30px;margin-top:0;position:absolute;background:url('banner-bg.png') 0 -133px no-repeat;}
+
+#content-inner {width:940px;padding:20px 20px 220px 20px;float:left;}
+#content-inner h1 {text-transform: uppercase;}
+#content-inner div.div-row {margin:20px 0 0 0;float:left;}
+#content-inner div.div-row img {border:15px solid #f4ede5;box-shadow: 0px 0px 8px #888888;}
+#content-inner div.div-row img.img-left {display:block;float:left;margin-right:20px;}
+#content-inner div.div-row img.img-right {display:block;float:right;margin-left:20px;}
 
 
 
