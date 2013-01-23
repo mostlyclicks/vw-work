@@ -2,6 +2,7 @@ Visitwinona::Application.routes.draw do
   #get "pages/index"
 
   match '/category' => 'pages#category'
+  match '/detail' => 'pages#detail'
 
   resources :pages
 

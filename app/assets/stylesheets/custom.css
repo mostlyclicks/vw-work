@@ -9,13 +9,11 @@ body {margin:0;padding:0;font-family:arial, sans-serif;}
 	        				box-shadow: 				0 8px 19px -11px #000;}
 #header-container #nav {margin-top:3px;}
 #header-container #header {width:980px;margin:0 auto 0 auto;}
-
 #header-container #header ul#utility-nav {float:right;margin:0;padding:0;text-align:right;margin-top:-6px;font-family:arial, sans-serif;font-size:11px;}
 #header-container #header ul#utility-nav li a {color:#21617e;text-decoration:none;}
 #header-container #header ul#utility-nav li a:hover {text-decoration:underline;}
 #header-container #header ul#utility-nav li {display:inline-block;padding:0;margin-left:-4px;height:55px;padding:7px 0px 24px 9px;}
-#header-container #header ul#utility-nav li:first-child a {display:block;height:50px;}
-																													
+#header-container #header ul#utility-nav li:first-child a {display:block;height:50px;}																			
 #header-container #header ul#utility-nav li:last-child a {display:block;padding:7px 7px 24px 7px;margin:0;
 																								background:url('/assets/divider.png') 0px -60px no-repeat;}
 #header-container #header #nav {float:left;}
@@ -29,8 +27,6 @@ body {margin:0;padding:0;font-family:arial, sans-serif;}
 
 
 
-/*#header-container #header ul#utility-nav li {height:40px; background:url('assets/divider.png') -60px 0;background-repeat:no-repeat;background-position:right;display:block;}*/
-
 #main-pict {position: relative;display: block;z-index: 10;min-height: 100px;min-width: 980px;width: 100%;background-color: #cdcdcd;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -38,22 +34,35 @@ body {margin:0;padding:0;font-family:arial, sans-serif;}
 			margin: 0;padding:0;}
 
 .content {width:980px;min-height:500px;margin:-20px auto 0 auto;}
-#banner {width:1040px;min-height:100px;position:relative;z-index:9;float:left;}
+/* Z-INDEX 19 */
+#banner {width:1040px;min-height:100px;position:relative;z-index:19;float:left;}
 #banner-top {width:1040px;height:30px;margin-top:20px;position:absolute;background:url('banner-bg.png') 0 0 no-repeat;}
 #banner-mid {width:1040px;margin-top:50px;margin-left:-1px;background:url('banner-bg-long.png') 0 -50px repeat-y;border:1px solid transparent;padding-top:0;}
 #banner-mid #banner-inner {margin:0 41px 0px 23px;font-size:12px;margin-top: -15px}
 #banner-mid #banner-inner a {color:#b31719;}
-
 #banner-mid #banner-inner #banner-inner-left	{width:675px;padding-right:15px;border-right:1px solid #f1e3c6;}
 #banner-mid #banner-inner #banner-inner-left h3 {color:#014c72;font-weight:100;text-transform: uppercase;}
-
-/*#banner-mid #banner-inner #banner-inner-right {}*/
 #banner-btm {width:1040px;height:30px;margin-top:0;position:absolute;background:url('banner-bg.png') 0 -133px no-repeat;}
+
+/* Z-INDEX 9 */
+#l2 {width:980px;background-color:#fff;height:auto;padding-bottom:180px;float:left;position:absolute;}
+#l2-hero-img {position:relative;z-index:9;}
+#l2-left-main {width:638px;padding-left:36px;float:left;}
+#l2-right-sidebar {width:251px;float:right;margin:-70px 30px 0 0;position:relative;z-index:11;}
+#l2-right-sidebar div {width:220px;margin:0 0px 20px 0;background-color:#fff9f0;padding:15px;float:right;
+											-webkit-box-shadow: 0px 2px 4px #888888;
+	   									-moz-box-shadow: 		0px 2px 4px #888888;
+											box-shadow: 				0px 2px 4px #888888;}
 
 #content-inner {width:940px;padding:20px 20px 220px 20px;float:left;}
 #content-inner h1 {text-transform: uppercase;}
 #content-inner div.div-row {margin:20px 0 0 0;float:left;}
-#content-inner div.div-row img {border:15px solid #f4ede5;box-shadow: 0px 0px 8px #888888;}
+#content-inner div.div-row h2 {color:#0877bd;}
+#content-inner div.div-row button {background-color:#b42025;color:#fff;font-size:16px;border:none;padding:.75em;}
+#content-inner div.div-row img {border:15px solid #f4ede5;
+																-webkit-box-shadow: 0px 0px 8px #888888;
+	   														-moz-box-shadow: 		0px 0px 8px #888888;
+																box-shadow: 0px 0px 8px #888888;}
 #content-inner div.div-row img.img-left {display:block;float:left;margin-right:20px;}
 #content-inner div.div-row img.img-right {display:block;float:right;margin-left:20px;}
 

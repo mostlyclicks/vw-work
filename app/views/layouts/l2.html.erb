@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Visitwinona</title>
+  <title>Visitwinona - L2</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -19,7 +19,7 @@
 
 
 </head>
-<body>
+<body style="background-color:#e5e2dc;">
 
 	<%= render 'layouts/header' %>
 
@@ -27,17 +27,21 @@
 
  
 
-	<div style="height: 100%; margin: 0px auto -84px auto; color:#000000; overflow:auto;background-color:#e5e2dc;">
+	<!--<div style="height: 100%; margin: 0px auto -84px auto; color:#000000; overflow:auto;background-color:red;/*#e5e2dc;*/"> -->
               <div style="height:200px;"></div>
 
-  <%= image_tag 'winter-main.jpg', id: "main-pict" %>
+
+              <%#= image_tag 'winter-main.jpg', id: "main-pict" %>
               
-  <div class="content content-gradient" style="">
-    <%= yield %>
-  </div>
+            <div class="content content-gradient" style="">
+              <%= yield %>
+            </div>
 
- <div style="height:84px;"></div>
 
+
+       <div style="height:84px;"></div>
+
+	
 
 	<%= render 'layouts/footer' %>
 
